@@ -1,0 +1,82 @@
+body {
+  font-family: 'Poppins', sans-serif; /* Font modern */
+  background-color: #e6f7ff; /* Biru kalem */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333; /* Teks warna gelap */
+}
+
+form {
+  background: #ffffff; /* Putih bersih untuk form */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow lembut */
+  width: 100%;
+  max-width: 400px; /* Lebar tetap */
+  margin: 0 20px; /* Memberikan margin kanan dan kiri */
+  text-align: center; /* Tengah */
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 15px;
+  display: block;
+  color: #555; /* Abu gelap */
+  font-weight: 600;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccd9e2; /* Border biru kalem */
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Shadow dalam */
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #5dade2; /* Biru lebih terang saat fokus */
+  outline: none;
+  box-shadow: 0 0 5px rgba(93, 173, 226, 0.5);
+}
+
+input[type="submit"] {
+  background-color: #5dade2; /* Biru kalem */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #3498db; /* Biru sedikit lebih gelap saat hover */
+  transform: scale(1.05); /* Perbesar tombol sedikit */
+}
+
+input[type="submit"]:active {
+  background-color: #2980b9; /* Biru lebih gelap saat klik */
+  transform: scale(0.95); /* Kecilkan tombol sedikit */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Teks utama */
+}
+
+p {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #666; /* Teks deskripsi */
+}
